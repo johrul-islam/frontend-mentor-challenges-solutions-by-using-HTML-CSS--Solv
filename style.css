@@ -1,0 +1,67 @@
+body{
+    background-color: #f5d04e;
+}
+.main{
+    width: 350px;
+    height: 470px;
+    border-radius: 20px;
+    box-shadow: 8px 8px 0px #000;
+    background-color: #ffffff;
+    margin: 6% auto;
+}
+/* main_img */
+.main img{
+    width: 310px;
+    margin: 20px;
+    border-radius: 10px;
+}
+/* Learning_point */
+.main a{
+    text-decoration: none;
+    font-family:'Figtree', sans-serif;
+    color: #000;
+    padding: 5px 10px;
+    background-color: #f5d04e;
+    margin-left: 20px;
+    border-radius: 5px;
+    font-weight: 600px;
+}
+/* Published */
+.main .published{
+    font-family:'Figtree', sans-serif;
+    margin-left: 20px;
+    font-size: 16px;
+}
+/* heder_point */
+.main h2{
+    font-family:'Figtree', sans-serif ;
+    font-weight: 800px;
+    margin-left: 20px;
+}
+/* letter_point  */
+.main .letter{
+    font-family: 'Figtree', sans-serif;
+    margin-left: 20px;
+    opacity: 0.5;
+}
+/* Avatar_section */
+.avatar{
+    width: 90%;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    display: flex;
+    position: relative;
+}
+
+.avatar img{
+    width: 40px;
+    position: absolute;
+    margin: 0;
+}
+.avatar p{
+    margin-left: 50px;
+    font-family:'Figtree', sans-serif;
+    margin-top: 10px;
+}
+
